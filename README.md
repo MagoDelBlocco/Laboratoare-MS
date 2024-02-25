@@ -3,19 +3,20 @@
 ### Option 1: Google Colab
 
 Download the source file for each week (MS-labX.ipynb).
-    `wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/main/MS-labX.ipynb`
+    
+    wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/main/MS-labX.ipynb
 
-Open (Google Colab)[https://colab.research.google.com/] in a web browser.
+Open [Google Colab](https://colab.research.google.com/) in a web browser.
 
 Select "Upload" and use the previously downloaded source.
 
 ### Option 2: Jupyter Lab - local
 
-Download the (latest version of Python)[https://www.python.org/downloads/] for your operating system (on Unix-based systems, you can use your package manager; on Windows, it's recommended to download from the Microsoft Store).
+Download the [latest version of Python](https://www.python.org/downloads/) for your operating system (on Unix-based systems, you can use your package manager; on Windows, it's recommended to download from the Microsoft Store).
 
-Install (pip)[https://pip.pypa.io/en/stable/installation/], the Python package manager.
+Install [pip](https://pip.pypa.io/en/stable/installation/), the Python package manager.
 
-Install (Jupyter)[https://jupyter.org/install].
+Install [Jupyter](https://jupyter.org/install).
 
 Start the Jupyter Lab server using the command `python3 -m jupyterlab`. A new browser window will open with the application.
 
