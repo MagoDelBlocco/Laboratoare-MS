@@ -4,7 +4,7 @@
 
 Download the source file for each week (MS-labX.ipynb).
     
-    wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/main/MS-labX.ipynb
+    wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/master/MS-labX.ipynb
 
 Open [Google Colab](https://colab.research.google.com/) in a web browser.
 
