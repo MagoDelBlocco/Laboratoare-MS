@@ -1,10 +1,15 @@
 # Laboratoare MS
 ## Setup Laborator MS
+
+The lab notebooks are organized in subfolders named `lab00`, `lab01`, ..., `lab13`. (Labs 00-09 are zero-padded for alphabetical ordering.)
+
 ### Option 1: Google Colab
 
-Download the source file for each week (MS-labX.ipynb).
-    
-    wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/master/MS-labX.ipynb
+Download the source file for the desired lab from its folder. For instance, for Lab 0:
+
+    wget https://raw.githubusercontent.com/MagoDelBlocco/Laboratoare-MS/master/lab00/MS-lab00.ipynb
+
+For other labs, replace `00` with the appropriate lab number (e.g., `lab05/MS-lab05.ipynb` for Lab 5, `lab09/MS-lab09.ipynb` for Lab 9). Labs 11, 12, and 13 are not zero-padded (`lab11/MS-lab11.ipynb`, `lab12/MS-lab12.ipynb`, `lab13/MS-lab13.ipynb`). Lab 9 also includes a data file `kc_house_data.csv`.
 
 Open [Google Colab](https://colab.research.google.com/) in a web browser.
 
@@ -20,10 +25,11 @@ Install [Jupyter](https://jupyter.org/install).
 
 Start the Jupyter Lab server using the command `python3 -m jupyterlab`. A new browser window will open with the application.
 
-In the navigation menu on the left, find the previously downloaded source and double-click it.
+In the navigation menu on the left, navigate to the desired lab folder (e.g., `lab00/` for Lab 0) and double-click the notebook file.
 
 ### Option 3: VSCode - local
-Just download the file and open it with VSCode. It will prompt you to install the necessary extensions.
+
+Clone or download the repository, then open the desired lab folder in VSCode. Open the notebook file; VSCode will prompt you to install necessary extensions.
 
 ## FAQ
 Q: I keep trying to install `numpy` or `scipy`, but it says that I don't have it installed when I try to import.
